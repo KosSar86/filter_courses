@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Фильтр курсов</title>
+	 <meta charset=utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<table>
+	<thead>
+		<tr>
+		<th>Курсы</th>
+		<th colspan="2">Цена</th>
+		</tr>
+		<tr>
+		<th>в странах</th>
+		<th>От</th>
+		<th>До</th>
+		</tr>
+	</thead>
+	<tbody id="all_courses">
+	</tbody>
+	</table>
+	
+	
+<div id="control-buttons">
+  <button name="filter">Курсы стоимостью до 200</button>
+  <button name="filter">Курсы стоимостью от 100 до 350</button>
+  <button name="filter">Курсы стоимостью от 200 </button>
+  <button name="sort">Отсортировать по возрастанию цены</button>
+  <button name="sort">Отсортировать по убыванию цены</button>
+  <button name="reset">Сбросить</button>
+</div>
+<div id="result_header"></div>
+<div id="result"></div>
+	<script src="js/script.js"></script>
+</body>
+</html>
